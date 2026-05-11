@@ -1,0 +1,13 @@
+# Deshabilita la ejecución de scripts PHP en el directorio de documentos
+<FilesMatch "\.(php|phtml|php3|php4|php5|php7|phar|inc)$">
+    Deny from all
+</FilesMatch>
+
+# Deshabilita la vista de listado de directorios
+Options -Indexes
+
+# Protege el archivo .htaccess mismo
+<Files ".htaccess">
+    Order Allow,Deny
+    Deny from all
+</Files>
