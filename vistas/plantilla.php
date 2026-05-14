@@ -80,7 +80,11 @@ session_start();
 </head>
 
 
-<body class="hold-transition skin-black sidebar-mini login-page" style="background-color:white;">
+<!--<body class="hold-transition skin-black sidebar-mini login-page" style="background-color:white;"> --> 
+
+<body class="hold-transition skin-black sidebar-mini login-page" style="background-image: url('vistas/img/plantilla/fondo.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed;">
+
+
 
   <?php
 
